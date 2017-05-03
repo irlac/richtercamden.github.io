@@ -100,11 +100,11 @@ a.button span { display: block; height: 23px; padding-left: 50px; }
 
 #download-tar-gz span { background: transparent url(../images/tar-gz-icon.png) 12px 50% no-repeat; }
 
-#go-back span { background: transparent url(../images/backarrow.png) 12px 50% no-repeat; }
+#go-back span { background: transparent url(../images/backarrow.png) 12px 50% no-repeat; background-image: url(../images/backarrow.png); }
 
 #go-back { margin-right: 0; }
 
-#download span { background: transparent url(../images/downarrow.png) 12px 50% no-repeat; }
+#download span { background: transparent url(../images/downarrow.png) 12px 50% no-repeat; background-image: url(../images/backarrow.png); }
 
 #download { margin-right: 0; }
 
