@@ -104,7 +104,7 @@ a.button span { display: block; height: 23px; padding-left: 50px; }
 
 #go-back { margin-right: 0; }
 
-#download span { background: transparent url(/docs/wrote/assets/images/downarrow.png) 12px 50% no-repeat; background-image: url(/docs/wrote/assets/images/backarrow.png); }
+#download span { background: transparent url(/docs/wrote/assets/images/downarrow.png) 12px 50% no-repeat; background-image: url(/docs/wrote/assets/images/downarrow.png); }
 
 #download { margin-right: 0; }
 
