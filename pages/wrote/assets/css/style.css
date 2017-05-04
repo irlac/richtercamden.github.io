@@ -108,7 +108,7 @@ a.button span { display: block; height: 23px; padding-left: 50px; }
 
 #result { margin-right: 0; }
 
-#or { padding-left: 10px; padding-right: 10px; }
+#or { vertical-align: top; font-size: 12; }
 
 code, pre { margin-bottom: 30px; font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal; font-size: 14px; color: #222; }
 
