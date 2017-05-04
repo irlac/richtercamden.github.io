@@ -104,7 +104,7 @@ a.button span { display: block; height: 23px; padding-left: 50px; }
 
 #go-back { margin-right: 0; }
 
-#result span { font-size: 9px; background: transparent url(/pages/wrote/assets/images/downarrow.png) 9px 50% no-repeat; background-image: url(/pages/wrote/assets/images/downarrow.png); }
+#result span { font-size: 11px; background: transparent url(/pages/wrote/assets/images/downarrow.png) 9px 50% no-repeat; background-image: url(/pages/wrote/assets/images/downarrow.png); }
 
 #result { margin-right: 0; }
 
