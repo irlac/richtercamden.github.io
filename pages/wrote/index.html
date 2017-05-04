@@ -6,7 +6,8 @@
     <link href='https://fonts.googleapis.com/css?family=Inknut+Antiqua:900' rel='stylesheet' type='text/css'>
     <link rel="stylesheet" href="/pages/wrote/assets/css/style.css">
     <link rel="stylesheet" type="text/css" href="/pages/wrote/assets/css/print.css" media="print">
-    <link rel="script" href="/pages/wrote/assets/js/jquery.min.js">
+    <script src="/pages/wrote/assets/js/jquery.min.js"></script>
+	<script src="/pages/wrote/assets/js/moment.min.js"></script>
 	<!--[if lt IE 9]>
     <script src="//html5shiv.googlecode.com/svn/trunk/html5.js"></script>
     <![endif]-->
@@ -33,7 +34,7 @@
 		  <h2>Releases:</h2>
 		  <div class="container-downloads">
     <div class="container">
-        <h1>Last 30 releases<span class="total-downloads"></span></h1>
+        <h1><span class="total-downloads"></span></h1>
         <div><i class="fa fa-refresh fa-spin fa-3x fa-fw"></i></div>
         <table class="table table-bordered table-striped table-downloads">
             <thead>
@@ -50,7 +51,11 @@
         </table>
     </div>
 </div>
-		  <script src="../js/scripts.js"></script>
+
+{% include common-js.html %}
+<script src="{{ site.url }}/assets/js/moment.min.js"></script>
+
+		  <script src="/assets/js/scripts.js"></script>
         </section>
       </div>
     </div>
