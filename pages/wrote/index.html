@@ -22,7 +22,7 @@
         </header>
         <section id="buttons" class="clearfix">
 		  <a href="https://richtercamden.github.io" id="go-back" class="button"><span>Go Back</span></a>
-          <a href="https://github.com/richtercamden/WrOTe-Python-Game/archive/master.zip" id="download" class="button"><span>Download via Github</span></a>
+          <a href="{{ asset.browser_download_url }}" id="download" class="button"><span>Download via Github</span></a>
           <a href="https://sourceforge.net/projects/wrote/files/latest/download" id="download" rel="nofollow"><img alt="Download WrOTe" src="https://a.fsdn.com/con/app/sf-download-button"></a>
 		</section> 
         <hr>
@@ -93,7 +93,7 @@
                         .append($("<td>")
                             .append($("<a>")
                                 .attr("href", asset.browser_download_url)
-                                .text(fileSize.toLocaleString() + " KB")
+                                .text(fileSize.toLocaleString() + " B")
                             )
                         )
                         .append($("<td>")
