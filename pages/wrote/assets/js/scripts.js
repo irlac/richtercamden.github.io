@@ -3,7 +3,7 @@
         if (repo) {
             $("#downloads-header").text(repo).attr("href", "https://github.com/" + repo);
         } else {
-            repo = "WrOTe-Python-Game/WrOTe-Python-Game";
+            repo = "richtercamden/WrOTe-Python-Game";
         }
         GetReleases(repo);
     }); 
