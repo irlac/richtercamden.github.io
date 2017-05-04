@@ -40,7 +40,6 @@
             <thead>
                 <tr>
                     <th>Release name</th>
-                    <th>File size</th>
                     <th>Download count</th>
                     <th>Release date</th>
                     <th>Active days</th>
@@ -89,13 +88,7 @@
                                 .text(release.name)
                             )
                             .append(release.prerelease ? "<div class=\"pull-right\"><span class=\"label label-danger\">Pre-release</span></div>" : "")
-                        )
-                        .append($("<td>")
-                            .append($("<a>")
-                                .attr("href", asset.browser_download_url)
-                                .text(fileSize.toLocaleString() + " B")
-                            )
-                        )
+                        ))
                         .append($("<td>")
                             .text(downloadCount.toLocaleString())
                         )
