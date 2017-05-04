@@ -23,6 +23,11 @@
         </header>
         <section id="buttons" class="clearfix">
 		  <a href="https://richtercamden.github.io" id="go-back" class="button"><span>Go Back</span></a>
+		  <script>
+		  $.get('https://api.github.com/repos/idorecall/selection-menu/releases/latest', function (data) {
+  $('#result').attr('href', data.zipball_url);
+});
+</script>
           <a id="result" class="button"><span>Download via Github</span></a>
           <a href="https://sourceforge.net/projects/wrote/files/latest/download" id="download" rel="nofollow"><img alt="Download WrOTe" src="https://a.fsdn.com/con/app/sf-download-button"></a>
 		</section> 
