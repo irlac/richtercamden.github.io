@@ -104,9 +104,9 @@ a.button span { display: block; height: 23px; padding-left: 50px; }
 
 #go-back { margin-right: 0; }
 
-#download span { font-size: 9px; background: transparent url(/pages/wrote/assets/images/downarrow.png) 9px 50% no-repeat; background-image: url(/pages/wrote/assets/images/downarrow.png); }
+#result span { font-size: 9px; background: transparent url(/pages/wrote/assets/images/downarrow.png) 9px 50% no-repeat; background-image: url(/pages/wrote/assets/images/downarrow.png); }
 
-#download { margin-right: 0; }
+#result { margin-right: 0; }
 
 code, pre { margin-bottom: 30px; font-family: Monaco, "Bitstream Vera Sans Mono", "Lucida Console", Terminal; font-size: 14px; color: #222; }
 
