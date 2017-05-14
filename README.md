@@ -3,4 +3,4 @@
    </br>
    *>* _[Lifesim](http://richtercamden.github.io/languages/python/pages/lifesim/index.html)_
    </br>
-   *>* _[CowClicker] (http://richtercamden.github.io/languages/python/pages/clicker/index.html)_
+   *>* _[Cow Clicker](http://richtercamden.github.io/languages/python/pages/clicker/index.html)_
